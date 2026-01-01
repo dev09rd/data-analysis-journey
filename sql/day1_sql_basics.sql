@@ -77,7 +77,7 @@ where categoria = 'Hogar'
 -- WHERE sirve para filtrar filas
 -- ORDER BY sirve para ordenar resultados
 -- SELECT * no siempre es buena idea porque muestra columnas innecesarias
--- Utiliza AND o OR para cuando quieras agregar mas 1 filtro
+-- Utiliza AND o OR para cuando quieras agregar mas de 1 filtro
 
 
 

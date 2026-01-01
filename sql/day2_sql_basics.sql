@@ -55,7 +55,7 @@ FROM ventas
 GROUP by categoria
 ORDER BY ventas_totales DESC;
 
--- Muestra que Cliente gasto mas de mayor a menor (Output:)
+-- Muestra que Cliente gasto mas de mayor a menor 
 SELECT cliente, SUM(precio * cantidad) AS gastos_totales
 FROM ventas
 GROUP BY cliente
